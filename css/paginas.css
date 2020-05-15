@@ -1,0 +1,725 @@
+*{
+	background: none;
+}
+
+#cabecera{
+	width: 99%;
+}
+#p1,#logoPress1,#p2ysocialeslogos{
+	width: 99%;
+}
+#p2ysocialeslogos{
+	text-align: center;
+}
+#p1{
+	min-height: 100px;
+	height: 250px;
+	max-height: 300px;
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+#p1>a{
+	width: 99%;
+	height: 250px;
+}
+#p1>a img{
+	width: 99%;
+	height: 250px;
+}
+#logoPress1{
+	text-align:center;
+}
+#logoPress1>img{
+	
+	width: 65%;
+	margin: 0 auto;
+	padding: 0;
+}
+#p2,#p3{
+	width: 30%;
+	margin: 0.25em;
+	padding: 0;
+	height:100px;
+	max-height: 100px;
+	min-height:100px;
+	display: inline-block;
+	background: white;
+	text-align: center;
+	vertical-align:0px;
+}
+#p2>a,#p3>a{
+	height:100px;
+	width: 69%;
+}
+#p2>a img,#p3>a img{
+	height:100px;
+	width: 69%;
+}
+#socialesLogos{
+	width: 30%;
+	display: inline-block;
+	margin: 0.25em;
+	padding: 0;
+	vertical-align:40px;
+}
+#socialesLogos>article{
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	margin: 0;
+	padding: 0.25em;
+	background:#fff;
+	border-radius: 0.5em;
+	font-size:11px;
+}
+#socialesLogos>article:hover{
+	background: #0080ff;
+}
+#socialesLogos>article>a{
+	width: 99%;
+	color:#000000;
+	text-transform:uppercase;
+	font-size:11px;
+	text-decoration: none;
+
+}
+#socialesLogos>article>a>img{
+		width: 20%;
+		display: block;
+		margin: 0 auto;
+}
+
+#socialesLogos>article>img{
+	width: 20%;
+	display: block;
+	margin: 0 auto;
+}
+
+#contenedormenu,#contenedormenu>ul{
+	width: 99%;
+}
+#contenedormenu{
+	margin: 0.25em;
+}
+#contenedormenu>ul{
+	padding: 0;
+	margin: 0;
+}
+#contenedormenu>ul>a{
+	border-radius: 0.15em;
+    display: inline-block;
+    margin: 0;
+    padding: 0.25em;
+    background:#1d8bff;
+    font-size: 12px;
+    font-weight:bold;
+    transition: all 1s ease-in-out;
+    text-align: center;
+    width: 10%;
+    color: black;
+    text-decoration: none;
+    border-radius: 0.5em;
+    box-shadow: #000 0px 0px 5px;
+}
+#contenedormenu>ul>a:hover{
+	   background: red;
+       border: none;
+       border-radius: 0;
+       box-shadow: #f00 0px 0px 9px;
+}
+.menu{
+	list-style: none;
+}
+.menu>img{
+  width: 30%;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+ 
+}
+////////////////////////////SOCIALES REDES////////////////////////////
+#twtterapp{
+	border-radius: 0.5em;
+    border-top:solid #0080FF;
+	border-bottom:solid #0080FF;
+    box-shadow: #000 0px 0px 5px;
+    width: 99%;
+    height:840px; 
+}
+
+/*////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////*/
+#contenedorparte1{
+	width: 99%;
+	margin: 0;
+	padding: 0;
+}
+
+#asidereciente,#noticiasC1,#asidereciente2,#noticiasC2,#asidepymas,#asidepymas2{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0.25em;
+}
+#asidereciente{
+	width: 13%;
+	border-radius: 0.5em;
+
+}
+#asidereciente2{
+	width: 13%;
+	border-radius: 0.5em;
+	
+}
+#asidepymas{
+	width: 30%;
+}
+#asidepymas2{
+	width: 30%;
+}
+#noticiasC1{
+	width: 50%;
+}
+#noticiasC2{
+	width: 50%;
+}
+
+/***************************************************************************************
+ ****************************************************************************************/
+.horafecha{
+	margin: 0;
+	padding: 0;
+	color:orange;
+	display: block;
+	width: 99.5%;
+	text-align: left;
+	
+}
+
+.enlaces_noticias{
+	text-decoration: none;
+	text-transform: none;
+	color:black;
+	width: 99%;
+}
+.articulos-noticias-centro{
+	border-top:solid orange;
+	border-bottom:solid orange;
+	border-radius: 0.5em;
+	margin: 0.75em;
+	padding: 0.25em;
+	box-shadow:#000 0px 0px 5px ;
+}
+.articulos-noticias-centro:hover{
+	cursor: pointer;
+	box-shadow:#00f 0px 0px 5px ;
+}
+.cabecera-noticias{
+	text-align: left;
+	font-size:25px;
+	font-family:"Arial Black";
+	margin:0.25em;
+	font-weight:bold;
+	cursor: pointer;
+}
+.cabecera-noticias:hover{
+	text-decoration: underline;
+}
+.img-noticia{
+	width:99%;
+	height: 350px;
+	background: none;
+	}
+.img-noticia>img{
+	width:99.8%;
+	height: 350px;
+	border-radius: 0.25em;
+}
+.contenido-noticia{
+	margin:0.15em;
+	padding:0.15em;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:justify;
+	white-space:pre-line;
+	
+	}
+.enlaces-recientes{
+	text-decoration: none;
+	color:black;
+}
+.articulos-lado-izquierdo{
+	text-align: center;
+	border-top:solid #0080FF;
+	border-bottom:solid #0080FF;
+	margin-bottom: 0.5em;
+	min-height: 208px;
+	height: 208px;	
+	max-height:208px;
+	display: block;
+	border-radius: 0.5em;
+	box-shadow:#000 0px 0px 5px ;
+	
+	}
+.articulos-lado-izquierdo:hover{
+	 cursor: pointer;
+	 font-family: "Arial Black";
+	 box-shadow:#f00 0px 0px 5px ;
+	}
+.articulos-lado-izquierdo,.img-articulos-lado-izquierdo{
+	width: 99%;
+}
+.titulo-articulos-lado-izquierdo{
+	text-align: left;
+	padding:0em;
+	display: block;
+	font-size:13.5px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;	
+	white-space:pre-line;
+}
+.img-articulos-lado-izquierdo{
+	background:none;
+	display: block;
+	width: 99%;
+	
+}
+.img-articulos-lado-izquierdo img{
+	width: 99%;
+	max-height: 100px;
+	min-height: 100px;
+	border-radius: 0.5em;
+	}
+.noticiasderechas{
+	border:none;
+	padding-top:0.2em;
+	border-radius: 0.5em;
+	border-top: solid thick #0080FF;
+	border-bottom: solid #0080FF;
+	box-shadow: #000 0px 0px 5px;
+}
+.noticiasderechas header{
+	background: #0080C0;
+	width: 99.9%;
+	margin:0 auto;
+	height: 30px;
+	padding-top:0.5em;
+	text-align: left;
+	text-indent:40px;
+	color:white;
+	text-shadow: 0px 0px 1px #fff;
+	border-radius: 0.5em 0.5em 0 0;
+	position: relative;
+	text-shadow: #000 0px 0px 3px;
+	
+}
+.noticiasderechas header img{
+	width: 50%;
+	position: absolute;
+	top:0px;
+	right: 1px;
+	
+}
+.noticiasderechas a{
+	text-decoration: none;
+	color:black;
+	margin: 0.5em;
+	padding: 0em;
+	border-top: solid thin #0080C0;
+	border-radius: 0.5em;
+	min-height:70px;
+	height:70px;
+	max-height:70px;
+	
+}
+/**************************************PUBLICIDAD************************/
+
+.publicidad-entrenoticias1{
+	width: 99%;
+	height: 100px;
+	background: black;
+	color:white;
+	font-size:20px;
+	margin:0.5em;
+	}
+.publicidad-entrenoticias1 img{
+width:100%;
+height:100px;
+}
+#paside1{
+	width: 99%;
+	height: 450px;
+	margin: 0.25em;
+	border-radius: 0.5em;
+	border-top: solid #0080c0;
+	border-bottom: solid #0080c0;
+	box-shadow: #000 0px 0px 5px;
+	text-align: center;
+}
+#paside1>a{
+	width: 99%;
+	height: 450px;
+}
+#paside1>img{
+	width: 99.8%;
+	height: 450px;
+}
+#paside1>a img{
+	width: 99.8%;
+	height: 450px;
+	border-radius: 0.25em;
+}
+.pasidecuadrado{
+	width: 99%;
+	height: 300px;
+	margin: 0.25em;
+	border-radius: 0.5em;
+	border-top: solid #0080c0;
+	border-bottom: solid #0080c0;
+	box-shadow: #000 0px 0px 5px;
+	text-align: center;
+}
+.pasidecuadrado>a{
+	width: 99%;
+	height: 300px;
+	
+}
+.pasidecuadrado>a img{
+	width: 99.8%;
+	height: 300px;
+	border-radius: 0.25em;
+}
+.noticiasderechas{	
+	margin:0.5em;
+	width: 99%;
+	height: 300px;	
+	max-height:300px;
+	margin: 0.25em;	
+	overflow:hidden;
+	text-transform: uppercase;
+	
+}
+#internacionalesaside header{
+	text-indent: 0px;
+}
+#economiaaside,#socialesaside,#internacionalesaside,#nacionalesaside{
+	height: 430px;	max-height:430px;
+}#economiaaside>div,#internacionalesaside>div,#nacionalesaside>div{	
+	height:420px;
+	max-height:420px;
+	}
+#politicoaside{
+	min-height: 700px;
+	height: 700px;
+	max-height: 700px;
+
+}
+#contenido_derecha_politica{
+	min-height: 700px;
+	height: 700px;
+	max-height: 700px;
+}
+
+#pcentro{
+	width: 99%;
+	margin: 0.25em;
+	padding: 0.25em;
+	height: 250px;
+}
+#pcentro>a{
+	width: 99%;
+	height: 250px;
+}
+#pcentro>a img{
+	width: 99%;
+	height: 250px;
+}
+/**************************************************************************************************/
+/**************************************DERECHA*****************************************************/
+.contenido_derecha_clases{
+	overflow-x: auto;
+	width: 99%;
+	height: 300px;
+	
+}
+
+#contenido_derecha_sociales,#contenido_derecha_economia{
+	height: 430px;	max-height:430px;
+}
+#contenido_derehca_deporte,#contenido_derehca_salud{
+	width: 99%;
+	
+}
+.imagenderecha{
+	display: inline-block;
+	width: 30%;
+	min-height:70px;
+	height:70px;
+	max-height:70px;
+	vertical-align: top;
+	margin-bottom: 0.25em;
+	
+}
+.imagenderecha img{
+	width: 99%;
+	min-height:70px;
+	height:70px;
+	max-height:70px;
+	border-radius:0.5em;
+}
+.minicontenidoderecha{
+	width: 60%;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom:0.25em;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 11px;
+	
+}
+.minicontenidoderecha:hover{
+	background: #CCCCCC;
+	border-radius:0.25em;
+}
+#fotodiaaside{
+	height: 350px;
+	max-height: 350px;
+	cursor: pointer;
+	overflow-y: scroll;
+}
+#fotodiaaside header{
+	text-indent: 20px;
+}
+#gastronomiaaside header{
+	text-indent: 20px;
+}
+#derechafotodia{
+	width: 99%;
+	margin: 0em auto;
+	text-align: center;
+	
+}
+#contenido_derecha_fotodia{	
+	height:350px;
+	width: 99%;
+}
+
+#imgdiadia{
+	width: 95%;
+	max-height:300px;
+	height:300px;
+	
+}
+#tituloimagenderecha{
+	margin: 0 auto;
+	padding: 0;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#aerofotodia_base,#aeropublicidad_base{
+	width: 99%;
+	height: 1500px;
+	position: fixed;
+	top:0px;
+	background: white;
+	z-index: 3;
+	display: none;
+}
+#aeropublicidad_base{
+	display: none;
+}
+#aerofotodia_contenido{
+	width: 80%;
+	margin: 0.5em auto;
+	padding: 0.5em;
+	height: 500px;
+	max-height: 600px;
+	min-height: 600px;
+	background: #fff;
+		
+}
+#aerofotodia_contenido img{
+	width: 99%;
+	height: 500px;
+	max-height: 500px;
+	min-height: 500px;
+}
+#aeropublicidad_contenido{
+	width: 80%;
+	margin: 0.5em auto;
+	padding: 0.5em;
+	height: 500px;
+	max-height: 600px;
+	min-height: 600px;
+	background: #fff;
+	border:solid thin;
+}
+#aeropublicidad_contenido img{
+	height: 500px;
+	max-height: 600px;
+	min-height: 600px;
+	width: 99%;
+}
+#cerrarareofotodia{
+	width: 15%;
+	position: relative;
+	top: 0;
+	background: red;
+	color:#FFFFFF;
+}
+
+
+/*NOTICIAS DE AYER ESTILOS*/
+#noticias-ayer-pagina3{
+	width: 90%;
+	margin: 0.5em auto;
+	padding: 0.5em;
+	
+	}
+
+.articulos-noticias-centro-pagina3{
+		width: 20%;
+		max-height:250px;
+		margin:0.25em;
+		padding: 0.5em;
+		border-top:solid thin orange;
+		box-shadow: #000 1px 0px 10px;
+		display:inline-block;
+		text-align: center;
+		
+	}
+.articulos-noticias-centro-pagina3 h2{
+	font-size: 12px;
+}
+.articulos-noticias-centro-pagina3 img{
+	width: 99%;
+	height:150px;
+	border-radius:0.5em;
+}
+.articulos-noticias-centro-pagina3 p:nth-child(1){
+	margin: 0.25em;
+	padding: 0;
+	float: left;
+	color:orange;
+	
+}
+.cabecera-noticias-ayer{
+	text-align:justify;
+	cursor: pointer;
+	padding: 0;
+	margin:0;
+	font-size: 12px;
+
+}
+.cabecera-noticias-ayer:hover{
+	text-decoration: underline;
+}
+/*FIN DE LOS ESTILOS DE NORICIAS DE AYES*/
+
+
+/*MEDIA QUERY*/
+@media screen and (min-width: 0px) {
+    body {
+    	margin:0 auto;
+    	width:99.8%;
+ 
+    }
+    #socialesLogos article{
+    	font-size: 8.2px;
+    }
+    .titulo-articulos-lado-izquierdo{
+    	font-size: 11.2px;
+    }
+    #contenedormenu>ul>a{
+    	padding: 0;
+    }
+    .menu{
+    	font-size: 8px;
+    }
+    .menu img{
+    	width: 40%;
+    }
+}
+@media screen and (min-width: 950px) {
+    body {
+    	margin:0 auto;
+    	width:99.8%;
+ 
+    }
+    #socialesLogos article{
+    	font-size: 11.5px;
+    }
+    .titulo-articulos-lado-izquierdo{
+    	font-size: 13.2px;
+    }
+    #contenedormenu>ul>a{
+    	padding: 0;
+    }
+    .menu{
+    	font-size: 12px;
+    }
+    .menu img{
+    	width: 40%;
+    }
+}
+@media screen and (min-width: 1068px) {
+    body {
+    	margin:0 auto;
+    	width:90%;
+ 
+    }
+    .noticiasderechas header img{
+    	top:-5px;
+    }
+    
+}
+
+@media screen and (min-width: 1281px) {
+    body {
+    	margin:0 auto;
+    	width:85%;
+ 
+    }
+    
+}
+
+@media screen and (min-width: 1400px) {
+    body {
+    	margin:0 auto;
+    	width:78%;
+ 
+    }
+    
+}
+@media screen and (min-width: 1500px) {
+    body {
+    	margin:0 auto;
+    	width:78%;
+ 
+    }
+    .noticiasderechas header img{
+    	top:-7px;
+    }
+    
+}
+@media screen and (min-width: 1700px) {
+    body {
+    	margin:0 auto;
+    	width:70%;
+ 
+    }
+    .noticiasderechas header img{
+    	top:-7px;
+    }
+    
+}
+@media screen and (min-width: 1820px) {
+    body {
+    	margin:0 auto;
+    	width:65%;
+ 
+    }
+    .noticiasderechas header img{
+    	top:-8px;
+    }
+    
+}
+/*FIN DE LA MEDIA QUERY*/
